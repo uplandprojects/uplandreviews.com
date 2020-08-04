@@ -128,16 +128,16 @@ Vue.component("page-footer", {
 				<nav class="footer-nav">
 					<ul>
 						<li>
-							<a href="http://uplandreviews.com/index.html" target="_blank">Home</a>
+							<a href="http://www.uplandreviews.com/index.html" target="_blank">Home</a>
 						</li>
 						<li>
-							<a href="http://uplandreviews.com/reviews/vests.html" target="_blank">Upland Vests</a>
+							<a href="http://www.uplandreviews.com/reviews/vests.html" target="_blank">Upland Vests</a>
 						</li>
 						<li>
-							<a href="http://uplandreviews.com/reviews/dog-training.html" target="_blank">Dog Training</a>
+							<a href="http://www.uplandreviews.com/reviews/dog-training.html" target="_blank">Dog Training</a>
 						</li>
 						<li>
-							<a href="http://uplandreviews.com/reviews/outerwear.html" target="_blank">Outerwear</a>
+							<a href="http://www.uplandreviews.com/reviews/outerwear.html" target="_blank">Outerwear</a>
 						</li>
 					</ul>
 				</nav>
