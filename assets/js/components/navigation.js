@@ -42,6 +42,11 @@ Vue.component("page-header-sub", {
 								href="./outerwear.html">
 								<i class="nc-icon nc-settings-gear-65"></i>
 								Outerwear
+							</a>
+							<a class="dropdown-item" data-scroll="true" data-id="#blogs"
+								href="./other.html">
+								<i class="nc-icon nc-tablet-2"></i>
+								Other
 							</a>							
 						</div>
 					</li>
@@ -51,7 +56,7 @@ Vue.component("page-header-sub", {
 	</nav>
     `,
 
-	data() { },
+	data() {},
 
 	mounted() {
 		var self = this;
@@ -59,7 +64,7 @@ Vue.component("page-header-sub", {
 	},
 
 	methods: {
-		init: function () { },
+		init: function () {},
 	},
 });
 
@@ -99,7 +104,12 @@ Vue.component("page-header-main", {
 						href="./reviews/outerwear.html">
 						<i class="nc-icon nc-map-big"></i>
 						Outerwear
-					</a>									
+					</a>	
+					<a class="dropdown-item" data-scroll="true" data-id="#blogs"
+						href="./reviews/other.html">
+						<i class="nc-icon nc-tablet-2"></i>
+						Other
+					</a>													
 				</div>
 			</li>
 		</ul>
@@ -108,7 +118,7 @@ Vue.component("page-header-main", {
 	</nav>
     `,
 
-	data() { },
+	data() {},
 
 	mounted() {
 		var self = this;
@@ -116,7 +126,7 @@ Vue.component("page-header-main", {
 	},
 
 	methods: {
-		init: function () { },
+		init: function () {},
 	},
 });
 
@@ -138,6 +148,9 @@ Vue.component("page-footer", {
 						</li>
 						<li>
 							<a href="http://www.uplandreviews.com/reviews/outerwear.html" target="_blank">Outerwear</a>
+						</li>
+						<li>
+							<a href="http://www.uplandreviews.com/reviews/other.html" target="_blank">Other</a>
 						</li>
 					</ul>
 				</nav>
@@ -165,6 +178,6 @@ Vue.component("page-footer", {
 	},
 
 	methods: {
-		init: function () { },
+		init: function () {},
 	},
 });
