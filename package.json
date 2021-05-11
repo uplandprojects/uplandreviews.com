@@ -44,7 +44,7 @@
 		"gulp-sass": "^4.0.2",
 		"gulp-sourcemaps": "^2.6.5",
 		"gulp-open": "^3.0.1",
-		"lodash": ">=4.17.19",
+		"lodash": ">=4.17.21",
 		"lodash.template": ">=4.5.0"
 	},
 	"homepage": "http://uplandreviews.com"
